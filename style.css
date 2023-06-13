@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body{
+    background: #f2f2f2;
+    margin: 0px;
+}
+.nav-img{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    margin: 50px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.four-cards{
+    display: inline-block;
+    flex-direction: column;
+}
+/* .card-seprator{
+    display: flex;
+    flex-direction: row;
+    
+} */
+.content{
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin: 10px;
+    padding: 0px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.content img{
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.fab-page{
+    color: #000;
+    text-decoration: none;
+}
+
+.content p{
+    max-width: 100%;
+    height: auto;
+    text-align: left;
+    font-size: 18px;
+    color: #000;
+    padding: 5px;
+    
+}
+
+button{
+    text-align: center;
+    font-size: 0.88rem;
+    
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: auto;
+    max-width: 100%;
+    position: relative;
+    bottom: 0;
+    
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.buy1{
+    background: #2183a2;
+}
+.buy1:hover{
+    background: #000;
+}
+.buy1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer{
+    height: auto;
+    width: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+   
+
+}
+.footer img{
+    height: auto;
+    width: 100%;
+    max-width: 900px;
+    
+}
+
+
+@media screen and (max-width: 476px){
+    .container{
+      flex-direction: column;
+      margin: 0px;
+      padding: 0px;
+    }
+    .four-cards{
+        
+    }
+    
+    
+    .card-seprator{
+        display: flex;
+        flex-direction: row;
+    }
+    .footer{
+        height: auto;
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+  }
